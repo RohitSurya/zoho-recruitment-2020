@@ -4,6 +4,7 @@ public class Main
 	public static void main(String[] args) {
 		//System.out.println("Hello World");
 		//Print "WELCOME" as "COMEWEL"
+		System.out.println("Enter a string to start:");
 		Scanner scanner = new Scanner(System.in);
 		String test = scanner.next();
 		int length = test.length();
